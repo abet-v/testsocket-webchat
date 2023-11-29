@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <title>Chat Lobby</title>
+</head>
+<body>
+    <h1>Salut !</h1>
+    <div id="peers"></div>
+    <div id="videos">
+        <video id="local-video" style="float: left;" autoplay playsinline></video>
+    </div>
+
+    <form id="form">
+        <input type="text" id="message" placeholder="Message" />
+        <input type="submit" value="Envoyer" />
+    </form>
+
+    <div id="messages"></div>
+
+    <script type="text/javascript">
+
+    </script>
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
